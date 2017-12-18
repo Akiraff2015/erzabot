@@ -1,0 +1,16 @@
+{
+	"pending":[
+		{"userId":"145174269834428416","suggestion":"This is a descriptional paragraph."},
+		{"userId":"145174269834428416","suggestion":"This is another test"},
+		{"userId":"193385015671914496","suggestion":"cookies"},
+		{"userId":"365065213847928833","suggestion":"dart cakes"},
+		{"userId":"145174269834428416","suggestion":"This is a test."},
+		{"userId":"145174269834428416","suggestion":"This is a 🍪"},
+		{"userId":"145174269834428416","suggestion":"This 🤠"},
+		{"userId":"145174269834428416","suggestion":"tsting this"},
+		{"userId":"145174269834428416","suggestion":"This is an awesome suggestion suggested by Akira."},
+		{"userId":"145174269834428416","suggestion":"test"}
+	],
+	"approved":[],
+	"disapproved":[]
+}
