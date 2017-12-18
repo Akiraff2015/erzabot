@@ -10,6 +10,7 @@ client.on('ready', () => {
 	console.log('I am online\n');
 });
 
+
 client.on('message', message => {
 	if (message.author === client.user) return;
 	if (!message.content.startsWith(prefix)) return;
