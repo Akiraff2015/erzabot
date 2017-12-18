@@ -1,7 +1,6 @@
 const fs = require('fs');
 const jsonfile = require('jsonfile');
 const Discord = require('discord.js');
-const client = new Discord.Client()
 
 module.exports = function(message, args, prefix) {
 	// !suggestion add <type here suggestion>
@@ -22,7 +21,7 @@ module.exports = function(message, args, prefix) {
 				.setFooter(id);
 		}
 
-		client.guild.channels.get('391594447273459713').send('new message');
+		message.client.guild.channels.get('391594447273459713').send('new message');
 		// return client.channels.get('391594447273459713').send({embed}).then(function(message) {
 		// 	message.react('👍');
 		// 	message.react('👎');
