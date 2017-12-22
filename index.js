@@ -32,9 +32,13 @@ client.on('message', message => {
 		cryCommand(message);
 	}else
 
+	if (message.content.startsWith(prefix + 'money') || message.content.startsWith(prefix + 'bal')) {
+		require('./commands/currency.js')(message, args, prefix, client);
+	}
+
 	if (message.content.startsWith(prefix + 'suggestion')) {
 		//suggestCommand(message, args, client);
-		require('./commands/suggestion.js')(message, args, prefix);
+		require('./commands/suggestion.js')(message, args, prefix, client);
 	}else
 
 	if (message.content.startsWith(prefix + 'application') || message.content.startsWith(prefix + 'app')) {
